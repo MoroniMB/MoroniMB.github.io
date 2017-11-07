@@ -11,3 +11,13 @@ function delegatekeypress(event) {
         /*$*/("#easy").trigger("click");
     }
 }
+-/*$*/(document).keypress();
++/*$*/(document).keypress(delegatekeypress);
++
++function delegatekeypress(event) {
+-/*$*/(document).keypress();
++/*$*/(document).keypress(delegatekeypress);
++
++function delegatekeypress(event) {
+    
+}
